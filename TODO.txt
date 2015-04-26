@@ -1,0 +1,22 @@
+A faire
+*	- Recommencer
+	- Menu
+*	- Quitter
+	- Suivant
+*	- Formatage du temps (mm:ss:ms)
+*	- Compter les déplacements
+	- Test si finir est impossible
+	
+A rajouter
+	- Menu
+*		- Quitter
+*		- Jouer
+*			- 1 joueur
+			- 2 joueurs
+*		- Editeur de niveau
+		- Options
+		
+	- Jeu
+		- Téléporteurs
+		- Portes + clés
+		- Ennemis
