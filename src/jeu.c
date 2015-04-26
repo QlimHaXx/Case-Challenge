@@ -52,7 +52,7 @@ void sauverFichierJeu(Jeu * pJeu){
     FILE * fichier = NULL;
     int x, y;
 
-    fichier = fopen("data/Niveaux/Niveau3.txt", "w");
+    fichier = fopen("data/Niveaux/aaa.txt", "w");
 
     if (fichier == NULL){
         EXIT_FAILURE;
