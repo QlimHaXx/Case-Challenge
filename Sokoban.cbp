@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sokoban" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\SDL\libSDLmain.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\SDL\libSDL.dll.a" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\SDL_ttf.lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="src/caisse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/caisse.h" />
+		<Unit filename="src/editeur.h" />
+		<Unit filename="src/jeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/jeu.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/menu.h" />
+		<Unit filename="src/perso.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/perso.h" />
+		<Unit filename="src/sdl2Jeu.h" />
+		<Unit filename="src/sdlEditeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sdlEditeur.h" />
+		<Unit filename="src/sdlJeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sdlJeu.h" />
+		<Unit filename="src/sdlMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sdlMenu.h" />
+		<Unit filename="src/terrain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/terrain.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

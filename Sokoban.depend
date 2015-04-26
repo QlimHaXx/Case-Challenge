@@ -1,0 +1,293 @@
+# depslib dependency file v1.0
+1429976551 source:d:\documents\dev\sokoban\src\jeu.c
+	"jeu.h"
+	<stdio.h>
+	<malloc.h>
+
+1429737166 d:\documents\dev\sokoban\src\jeu.h
+	"perso.h"
+	"terrain.h"
+	"caisse.h"
+
+1427652097 d:\documents\dev\sokoban\src\perso.h
+	"terrain.h"
+
+1428791866 d:\documents\dev\sokoban\src\terrain.h
+
+1430069595 source:d:\documents\dev\sokoban\src\main.c
+	<stdio.h>
+	"sdlMenu.h"
+	"sdlJeu.h"
+	"sdlEditeur.h"
+
+1430068633 d:\documents\dev\sokoban\src\sdljeu.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"jeu.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1427652547 source:d:\documents\dev\sokoban\src\perso.c
+	"perso.h"
+
+1430068709 source:d:\documents\dev\sokoban\src\sdljeu.c
+	<assert.h>
+	<time.h>
+	"sdlJeu.h"
+	"constantes.h"
+
+1428797052 source:d:\documents\dev\sokoban\src\terrain.c
+	"terrain.h"
+	<stdio.h>
+	<malloc.h>
+	<assert.h>
+
+1426268709 d:\documents\dev\sokoban\src\caisse.h
+	"terrain.h"
+
+1426368115 source:d:\documents\dev\sokoban\src\caisse.c
+	<stdlib.h>
+	"caisse.h"
+
+1426791189 source:d:\documents\dev\sokoban\src\sdl2jeu.c
+	<assert.h>
+	<time.h>
+	"sdl2Jeu.h"
+
+1426638108 d:\documents\dev\sokoban\src\sdl2jeu.h
+	<SDL2/SDL.h>
+	"jeu.h"
+
+1429202797 d:\documents\dev\sokoban\src\sdlmenu.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"menu.h"
+
+1427547813 d:\documents\dev\sokoban\src\menu.h
+
+1427666568 source:d:\documents\dev\sokoban\src\menu.c
+	"menu.h"
+
+1430069556 source:d:\documents\dev\sokoban\src\sdlmenu.c
+	<assert.h>
+	"sdlMenu.h"
+	"constantes.h"
+
+1428792086 d:\documents\dev\sokoban\src\fichiers.h
+	"terrain.h"
+
+1428795129 source:d:\documents\dev\sokoban\src\fichiers.c
+	<stdio.h>
+	<malloc.h>
+	"fichiers.h"
+
+1429197212 source:d:\documents\dev\sokoban\src\sdlanimsurf.c
+	<assert.h>
+	<time.h>
+	"sdlAnimSurf.h"
+
+1429197252 d:\documents\dev\sokoban\src\sdlanimsurf.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+
+1429976134 source:d:\documents\dev\sokoban\src\sdlediteur.c
+	<assert.h>
+	<time.h>
+	"sdlEditeur.h"
+	"constantes.h"
+
+1429975649 d:\documents\dev\sokoban\src\sdlediteur.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"jeu.h"
+
+1429811607 d:\documents\dev\sokoban\src\constantes.h
+
