@@ -3,20 +3,37 @@ A faire
 	- Menu
 *	- Quitter
 	- Suivant
+		- Remplacer par [Terminer | Revenir au manu] si plus de maps disponibles
 *	- Formatage du temps (mm:ss:ms)
-*	- Compter les d�placements
+	- Compter les déplacements
 	- Test si finir est impossible
-	
+
 A rajouter
 	- Menu
 *		- Quitter
+			- Logo perso avant de quitter :)
 *		- Jouer
 *			- 1 joueur
-			- 2 joueurs
-*		- Editeur de niveau
+				- Sauvegarder partie en cours
+			- 2 joueurs ?
+			- Liste des maps custom avec options [Jouer | Editer | Effacer]
+		- Editeur de niveau
+			- Grille visible par défaut ou activable
+			- Bouton sauvegarder
+				- Afficher message si perso non existant
+				-- Afficher message si caisse ou objet clé non existant
+			- Effacer un bloc via clic droit ?
+			- Sélection graphique des blocs
+			- Activer bouton menu
+				- Demander si quitter sans sauvegarder
 		- Options
-		
+			- Option fullscreen
+			- Activer ou désactiver son si ya du son [musique | effets sonores] :)
+			- Niveaux de difficulté (charger les levels des différents dossiers)
+		- Zik de fond ?
+
 	- Jeu
-		- T�l�porteurs
-		- Portes + cl�s
+		- Téléporteurs
+		- Portes + clés
 		- Ennemis
+		- Obstacles [eau | lave | trou] à éviter (téléporteurs) ou boucher (rocher, pont)
